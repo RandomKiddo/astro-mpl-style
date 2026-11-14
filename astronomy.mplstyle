@@ -1,7 +1,7 @@
 # CUSTOM MATPLOTLIB STYLE SHEET FILE
 # Author : Neil Ghugare
 
-# Typography & fonts
+# --- Typography & Fonts ---
 font.family         : sans-serif
 font.sans-serif     : DejaVu Sans, Helvetica, Arial
 font.size           : 13
@@ -11,12 +11,12 @@ xtick.labelsize     : 13
 ytick.labelsize     : 13
 legend.fontsize     : 12
 
-# Line and marker weights
+# --- Line and Marker Weights ---
 lines.linewidth     : 1.5
 patch.linewidth     : 1.0
-axes.linewidth      : 1.0
+axes.linewidth      : 1.5
 
-# Ticks
+# --- Ticks ---
 xtick.direction     : in
 ytick.direction     : in
 xtick.top           : True
@@ -24,25 +24,31 @@ ytick.right         : True
 xtick.minor.visible : True
 ytick.minor.visible : True
 
-# Tick sizing & length
+# --- Tick Sizing & Length ---
 xtick.major.size    : 6.0
 xtick.minor.size    : 3.0
 ytick.major.size    : 6.0
 ytick.minor.size    : 3.0
+xtick.major.width   : 1.5
+xtick.minor.width   : 1.0
+ytick.major.width   : 1.5
+ytick.minor.width   : 1.0
 
-# Figure layout & saving options
+# Figure Layout & Saving Options ---
 figure.dpi          : 150
 savefig.dpi         : 300
 savefig.bbox        : tight
 
-# Grid styling
+# --- Grid Styling ---
 axes.grid           : True
 grid.linestyle      : --
 grid.alpha          : 0.5
 grid.color          : gray
 grid.linewidth      : 0.8
 
-# Bolding Labels
+# --- Bolding Labels ---
 axes.labelweight    : bold
 axes.titleweight    : bold
+
+# My Custom Coloring ---
 
