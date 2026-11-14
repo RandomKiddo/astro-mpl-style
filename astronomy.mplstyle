@@ -46,9 +46,10 @@ grid.alpha          : 0.5
 grid.color          : gray
 grid.linewidth      : 0.8
 
-# --- Bolding Labels ---
+# --- Bolding ---
 axes.labelweight    : bold
 axes.titleweight    : bold
+font.weight	    : bold
 
 # --- My Custom Coloring ---
-axes.prop_cycle : cycler('color', ['1B2A4A', 'D95F02', '2A9D8F', 'E9C46A', '7A3E65', '6C757D'])
+axes.prop_cycle : cycler('color', ['14213D', 'C84B31', 'E69F00', '56B4E9', '5C2A5D'])
