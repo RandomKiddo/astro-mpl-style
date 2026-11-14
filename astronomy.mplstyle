@@ -50,5 +50,5 @@ grid.linewidth      : 0.8
 axes.labelweight    : bold
 axes.titleweight    : bold
 
-# My Custom Coloring ---
-
+# --- My Custom Coloring ---
+axes.prop_cycle : cycler('color', ['1B2A4A', 'D95F02', '2A9D8F', 'E9C46A', '7A3E65', '6C757D'])
