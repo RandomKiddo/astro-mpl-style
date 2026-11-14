@@ -1,3 +1,6 @@
+# CUSTOM MATPLOTLIB STYLE SHEET FILE
+# Author : Neil Ghugare
+
 # Typography & fonts
 font.family         : sans-serif
 font.sans-serif     : DejaVu Sans, Helvetica, Arial
@@ -38,3 +41,8 @@ grid.linestyle      : --
 grid.alpha          : 0.5
 grid.color          : gray
 grid.linewidth      : 0.8
+
+# Bolding Labels
+axes.labelweight    : bold
+axes.titleweight    : bold
+
